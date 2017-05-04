@@ -1,0 +1,1061 @@
+.index-main {
+  background: #f9f9f9;
+  /*专属活动结合*/
+  /*今日必团结束*/
+  /*楼层电梯结束*/
+}
+.index-main .activity {
+  margin-top: 20px;
+  background: #fff;
+  position: relative;
+}
+.index-main .activity em {
+  width: 18px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  background: url("../images/index/lift.png") no-repeat;
+  cursor: pointer;
+}
+.index-main .activity .btn-left {
+  background-position: 0 -120px;
+  left: 25px;
+}
+.index-main .activity .btn-left:hover {
+  background-position: -75px -120px;
+}
+.index-main .activity .btn-right {
+  right: 25px;
+  background-position: -30px -120px;
+}
+.index-main .activity .btn-right:hover {
+  background-position: -105px -120px;
+}
+.index-main .activity .activity-tab {
+  height: 3px;
+  overflow: hidden;
+}
+.index-main .activity .activity-tab a {
+  float: left;
+  background: #e6dcdc;
+  height: 3px;
+  width: 398px;
+  margin-right: 2px;
+}
+.index-main .activity .activity-tab .act {
+  background: #fd8727;
+}
+.index-main .activity .activity-tit {
+  width: 134px;
+  height: 20px;
+  overflow: hidden;
+  margin: 16px auto 23px;
+  background: url(../images/index/index_ices.png) no-repeat 0 -160px;
+  font-size: 0;
+}
+.index-main .activity .activity-box {
+  width: 1044px;
+  height: 190px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.index-main .activity .activity-pic {
+  width: 10000px;
+  height: 190px;
+  position: relative;
+}
+.index-main .activity .activity-pic ul {
+  width: 1044px;
+  height: 190px;
+  position: relative;
+  float: left;
+}
+.index-main .activity .activity-pic ul li {
+  width: 132px;
+  float: left;
+  margin: 0 20px;
+}
+.index-main .activity .activity-pic ul li a {
+  width: 132px;
+  height: 188px;
+  padding-top: 132px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+.index-main .activity .activity-pic ul li a .tab-img {
+  height: 132px;
+  padding: 10px 0;
+  width: 132px;
+  overflow: hidden;
+  border: 1px solid #e4e1e1;
+  border-radius: 80px;
+  transition: all 0.3s linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.index-main .activity .activity-pic ul li a .tab-img img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.index-main .activity .activity-pic ul li a .tab-name {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+}
+.index-main .activity .activity-pic ul li a .tab-money {
+  margin-top: 6px;
+  color: #fb6c68;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.index-main .group {
+  margin-top: 20px;
+  overflow: hidden;
+  background: #fff;
+}
+.index-main .group .big-pic {
+  float: left;
+  width: 240px;
+  overflow: hidden;
+  height: 400px;
+}
+.index-main .group .big-pic img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.index-main .group .small-pic {
+  float: left;
+  text-align: center;
+  width: 240px;
+  height: 400px;
+}
+.index-main .group .small-pic ul {
+  border-bottom: 1px solid #f2f2f2;
+  width: 240px;
+  height: 200px;
+}
+.index-main .group .small-pic ul li {
+  overflow: hidden;
+}
+.index-main .group .small-pic ul li .tit {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 15px;
+}
+.index-main .group .small-pic ul li .desc {
+  font-size: 14px;
+  color: #666666;
+}
+.index-main .group .small-pic ul li img {
+  width: 160px;
+  height: 120px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: all 0.3s;
+}
+.index-main .group .small-pic ul:hover img {
+  margin-right: 15px;
+}
+.index-main .group .border-right {
+  border-right: 1px solid #f2f2f2;
+}
+.index-main .lift {
+  /*title结束*/
+  /*主体所有公共样式结束*/
+  /*title的五种颜色块*/
+}
+.index-main .lift .mod-title {
+  height: 32px;
+  line-height: 32px;
+  margin-top: 20px;
+  border-bottom: 2px solid #ff4500;
+  color: #ff4500;
+}
+.index-main .lift .mod-title .fl a {
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  color: #ff4500;
+}
+.index-main .lift .mod-title .fl em {
+  float: left;
+  margin: 0 5px;
+  font-size: 16px;
+}
+.index-main .lift .mod-title .fl .cur {
+  position: relative;
+  float: left;
+  height: 26px;
+  margin: 3px 0 0 18px;
+}
+.index-main .lift .mod-title .fl .cur em {
+  background: url("../images/index/lift.png") no-repeat -140px -15px;
+  position: absolute;
+  left: -9px;
+  top: 8px;
+  width: 5px;
+  height: 9px;
+  float: left;
+}
+.index-main .lift .mod-title .fl .cur div {
+  padding: 0 10px;
+  height: 24px;
+  background: #fff7d1;
+  line-height: 24px;
+  border: 1px solid #e5debc;
+  color: #977a6f;
+  font-size: 12px;
+  font-weight: normal;
+}
+.index-main .lift .mod-title .fr a {
+  float: left;
+  margin: 0 5px;
+  max-width: 73px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #666;
+}
+.index-main .lift .mod-title .fr a:hover {
+  color: #e60012;
+}
+.index-main .lift .mod-title .fr span {
+  float: left;
+  color: #666;
+}
+.index-main .lift .mod-main {
+  background: #fff;
+}
+.index-main .lift .mod-main img:hover {
+  opacity: 0.9;
+}
+.index-main .lift .mod-main .a-main {
+  width: 210px;
+  height: 360px;
+  text-align: center;
+  border-right: 1px solid #f4f4f4;
+  float: left;
+  overflow: hidden;
+}
+.index-main .lift .mod-main .a-main .tag {
+  height: 99px;
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+.index-main .lift .mod-main .a-main .tag a {
+  float: left;
+  text-align: left;
+  text-indent: 5px;
+  margin: 0 5px;
+  width: 84px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px dotted #eee;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.index-main .lift .mod-main .a-main .tag a:hover {
+  color: #e60012;
+}
+.index-main .lift .mod-main .a-main .pic {
+  width: 210px;
+  height: 215px;
+}
+.index-main .lift .mod-main .a-main .pic h3 {
+  margin: 13px 35px 3px;
+  color: #ff4500;
+  font-weight: bold;
+}
+.index-main .lift .mod-main .a-main .pic img {
+  width: 190px;
+  height: 160px;
+  display: inline-block;
+}
+.index-main .lift .mod-main .a-main h1 {
+  margin: 13px 35px 0px;
+  color: #ff4500;
+  font-weight: bold;
+  height: 18px;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 18px;
+}
+.index-main .lift .mod-main .a-main h2 {
+  margin-top: 3px;
+  height: 16px;
+  padding: 2px 0 3px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #333;
+}
+.index-main .lift .mod-main .a-main h2 i {
+  display: inline-block;
+  width: 21px;
+  height: 16px;
+  margin-right: 5px;
+  background: url(../images/index/lift.png) no-repeat -105px -82px;
+  vertical-align: middle;
+}
+.index-main .lift .mod-main .a-main h2 em {
+  font-family: "Tahoma";
+  color: #ff5c4d;
+  font-weight: bold;
+}
+.index-main .lift .mod-main .a-main h2 span {
+  display: inline-block;
+  width: 21px;
+  height: 16px;
+  margin-left: 5px;
+  background: url(../images/index/lift.png) no-repeat -140px -82px;
+  vertical-align: middle;
+}
+.index-main .lift .mod-main .a-main .main-tab {
+  width: 180px;
+  height: 230px;
+  margin: 0 auto;
+  position: relative;
+}
+.index-main .lift .mod-main .a-main .main-tab .pic-box {
+  width: 100px;
+  height: 220px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.index-main .lift .mod-main .a-main .main-tab .pic-box li {
+  float: left;
+  width: 100px;
+}
+.index-main .lift .mod-main .a-main .main-tab .pic-box li a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  overflow: hidden;
+  margin: 12px 0;
+}
+.index-main .lift .mod-main .a-main .main-tab .pic-box li a img {
+  width: 100px;
+  height: 40px;
+  display: block;
+}
+.index-main .lift .mod-main .a-main .main-tab .tab-left {
+  background: url("../images/index/lift.png") no-repeat -140px -30px;
+  width: 9px;
+  height: 15px;
+  position: absolute;
+  left: 10px;
+  top: 100px;
+  cursor: pointer;
+}
+.index-main .lift .mod-main .a-main .main-tab .tab-right {
+  background: url("../images/index/lift.png") no-repeat -150px -30px;
+  width: 9px;
+  height: 15px;
+  position: absolute;
+  right: 10px;
+  top: 100px;
+  cursor: pointer;
+}
+.index-main .lift .mod-main .b-main {
+  float: left;
+  width: 330px;
+  height: 360px;
+  position: relative;
+}
+.index-main .lift .mod-main .b-main .picc {
+  width: 330px;
+  height: 360px;
+  overflow: hidden;
+}
+.index-main .lift .mod-main .b-main .picc li {
+  width: 1000px;
+  height: 360px;
+  position: relative;
+}
+.index-main .lift .mod-main .b-main .picc li a {
+  float: left;
+}
+.index-main .lift .mod-main .b-main .picc li a img {
+  width: 330px;
+  height: 360px;
+  display: block;
+}
+.index-main .lift .mod-main .b-main .btnn {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  text-align: center;
+}
+.index-main .lift .mod-main .b-main .btnn li {
+  width: 30px;
+  height: 6px;
+  background: #ddd;
+  display: inline-block;
+  cursor: pointer;
+}
+.index-main .lift .mod-main .b-main .btnn .active {
+  background: #ff3c3c;
+}
+.index-main .lift .mod-main .c-main {
+  width: 220px;
+  height: 360px;
+  float: left;
+  border-right: 1px solid #f4f4f4;
+  text-align: center;
+}
+.index-main .lift .mod-main .c-main ul {
+  width: 220px;
+  height: 180px;
+}
+.index-main .lift .mod-main .c-main ul a {
+  display: block;
+  overflow: hidden;
+}
+.index-main .lift .mod-main .c-main ul a img {
+  width: 190px;
+  height: 110px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.index-main .lift .mod-main .c-main .bb {
+  border-bottom: 1px solid #f4f4f4;
+}
+.index-main .lift .mod-main .d-main {
+  width: 220px;
+  height: 360px;
+  border-right: 1px solid #f4f4f4;
+  float: left;
+  text-align: center;
+}
+.index-main .lift .mod-main .d-main img {
+  width: 190px;
+  height: 290px;
+  display: inline-block;
+}
+.index-main .lift .mod-main .e-main {
+  text-align: center;
+}
+.index-main .lift .mod-main .e-main .f1 {
+  float: left;
+  width: 210px;
+  height: 180px;
+  border-top: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  overflow: hidden;
+  background: #fff;
+}
+.index-main .lift .mod-main .e-main .f1 h3 {
+  font-weight: bold;
+}
+.index-main .lift .mod-main .e-main .f1 .tit {
+  padding: 10px 0 0 15px;
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+}
+.index-main .lift .mod-main .e-main .f1 .fl img,
+.index-main .lift .mod-main .e-main .f1 .fr img {
+  width: 100px;
+  height: 140px;
+}
+.index-main .lift .mod-main .e-main .f2 {
+  float: left;
+  width: 330px;
+  height: 180px;
+  border-top: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  overflow: hidden;
+  background: #fff;
+}
+.index-main .lift .mod-main .e-main .f2 .fl {
+  float: left;
+  width: 169px;
+  height: 131px;
+  padding: 30px 14px 0 15px;
+  text-align: left;
+  margin-left: 15px;
+}
+.index-main .lift .mod-main .e-main .f2 .fl h3 {
+  margin: 16px 0 3px;
+  padding: 16px 0 3px;
+  height: 32px;
+}
+.index-main .lift .mod-main .e-main .f2 .fl h4 {
+  padding: 0;
+  margin-top: 5px;
+}
+.index-main .lift .mod-main .e-main .f2 .fl h5 {
+  display: block;
+  height: 22px;
+  overflow: hidden;
+  float: left;
+  margin-top: 10px;
+  padding: 0 8px;
+  background: #ff4148;
+  color: #FFF;
+  line-height: 22px;
+  font-size: 14px;
+}
+.index-main .lift .mod-main .e-main .f2 img {
+  width: 130px;
+  height: 166px;
+  margin-top: 15px;
+}
+.index-main .lift .mod-main .e-main .f3 {
+  float: left;
+  width: 220px;
+  height: 180px;
+  border-top: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  overflow: hidden;
+  background: #fff;
+}
+.index-main .lift .mod-main .e-main .f3 img {
+  width: 190px;
+  height: 110px;
+  display: inline-block;
+}
+.index-main .lift .mod-main .e-main .f4 {
+  float: left;
+  width: 220px;
+  height: 180px;
+  border-top: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  overflow: hidden;
+  background: #fff;
+}
+.index-main .lift .mod-main .e-main .f4 img {
+  width: 190px;
+  height: 110px;
+  display: inline-block;
+}
+.index-main .lift .mod-main .e-main .f5 {
+  float: left;
+  width: 220px;
+  _width: 217px;
+  height: 359px;
+  margin-top: -180px;
+}
+.index-main .lift .mod-main .e-main .f5 img {
+  width: 190px;
+  height: 290px;
+  display: inline-block;
+}
+.index-main .lift .mod-main .e-main .f6 {
+  float: left;
+  width: 220px;
+  height: 180px;
+  border-top: 1px solid #f4f4f4;
+  border-right: 1px solid #f4f4f4;
+  overflow: hidden;
+  background: #fff;
+}
+.index-main .lift .mod-main .e-main .f6 img {
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.index-main .lift .mod-main .f-main {
+  float: left;
+  width: 330px;
+  height: 360px;
+  border-right: 1px solid #f4f4f4;
+  overflow: hidden;
+}
+.index-main .lift .mod-main .f-main a {
+  display: block;
+  position: relative;
+}
+.index-main .lift .mod-main .f-main a span {
+  position: absolute;
+  top: 83px;
+  left: 25px;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 26px;
+}
+.index-main .lift .mod-main .f-main a span strong {
+  margin-right: 5px;
+  margin-left: 2px;
+  font-size: 17px;
+}
+.index-main .lift .mod-main .f-main a em {
+  position: absolute;
+  top: 115px;
+  left: 25px;
+}
+.index-main .lift .mod-main .f-main a em i {
+  color: #e8413e;
+  font-style: normal;
+  font-weight: bold;
+}
+.index-main .lift .mod-main h3 {
+  height: 18px;
+  overflow: hidden;
+  margin: 16px 35px 0px;
+  font-size: 14px;
+  color: #000;
+  line-height: 18px;
+}
+.index-main .lift .mod-main h4 {
+  height: 24px;
+  overflow: hidden;
+  margin-top: 3px;
+  padding: 0 30px;
+  font-size: 12px;
+  color: #999;
+  line-height: 24px;
+}
+.index-main .lift .mod-main .p1 {
+  color: #666;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 5px 10px;
+  overflow: hidden;
+}
+.index-main .lift .mod-main .p2 {
+  color: #e60012;
+  font-size: 14px;
+  font-weight: bold;
+}
+.index-main .lift .col2 {
+  color: #a7d22d!important;
+  border-bottom-color: #a7d22d ;
+}
+.index-main .lift .col3 {
+  color: #7b6859!important;
+  border-bottom-color: #7b6859 ;
+}
+.index-main .lift .col4 {
+  color: #3e73ff!important;
+  border-bottom-color: #3e73ff;
+}
+.index-main .lift .col5 {
+  color: #ff3137!important;
+  border-bottom-color: #ff3137;
+}
+.index-main .fast {
+  padding-bottom: 20px;
+}
+.index-main .fast .fast-tit {
+  border-bottom: 2px solid #cea145;
+  color: #cea145;
+  height: 32px;
+  margin-top: 20px;
+}
+.index-main .fast .fast-tit .fl {
+  font-weight: bold;
+  font-size: 16px;
+  color: #cea145;
+}
+.index-main .fast .fast-tit .fr {
+  float: right;
+  padding-right: 5px;
+  font-weight: bold;
+  color: #666;
+  font-size: 14px;
+}
+.index-main .fast .fast-tit .fr:hover {
+  color: #c00;
+}
+.index-main .fast .fast-main {
+  position: relative;
+}
+.index-main .fast .fast-main .fast-tab {
+  display: none;
+}
+.index-main .fast .fast-main .fast-tab ul:hover li {
+  display: block;
+}
+.index-main .fast .fast-main .fast-tab img:hover {
+  opacity: 0.9;
+}
+.index-main .fast .fast-main .fast-tab .tab-big {
+  width: 320px;
+  height: 360px;
+  position: relative;
+  float: left;
+}
+.index-main .fast .fast-main .fast-tab .tab-big a {
+  width: 100%;
+  height: 100%;
+}
+.index-main .fast .fast-main .fast-tab .tab-big a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.index-main .fast .fast-main .fast-tab .tab-small {
+  width: 220px;
+  height: 360px;
+  position: relative;
+  float: left;
+}
+.index-main .fast .fast-main .fast-tab .tab-small a {
+  width: 100%;
+  height: 100%;
+}
+.index-main .fast .fast-main .fast-tab .tab-small a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.index-main .fast .fast-main .fast-tab .tab-small a em {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  width: 160px;
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  text-align: center;
+}
+.index-main .fast .fast-main .fast-tab .tab-small a em strong {
+  font-size: 20px;
+  color: #e94919;
+  margin-right: 3px;
+}
+.index-main .fast .fast-main .fast-tab li {
+  background-color: rgba(3, 0, 0, 0.55);
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  display: none;
+}
+.index-main .fast .fast-main .fast-tab li i {
+  display: inline-block;
+  width: 15px;
+  height: 17px;
+  margin-right: 6px;
+  background: url(../images/index/lift.png) no-repeat -140px -55px;
+  vertical-align: middle;
+}
+.index-main .fast .fast-main .fast-tab li span {
+  display: inline-block;
+  margin: 0 2px;
+}
+.index-main .fast .fast-main .tab-btn {
+  position: absolute;
+  top: -34px;
+  left: 62px;
+  width: 600px;
+  height: 32px;
+  line-height: 32px;
+}
+.index-main .fast .fast-main .tab-btn li {
+  float: left;
+  padding: 0 10px;
+  color: #666;
+}
+.index-main .fast .fast-main .tab-btn li a {
+  color: #666;
+}
+.index-main .fast .fast-main .tab-btn .active a {
+  color: #cea145;
+}
+.index-main .fast .fast-main .tab-btn em {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-color: transparent transparent #cea145;
+  border-style: dashed dashed solid;
+  border-width: 4px;
+  font-size: 0;
+}
+.header-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #f5f5f5;
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #cecece;
+  box-shadow: 0 1px 2px #e8e8e8;
+  height: 50px;
+  z-index: 9999;
+  display: none;
+}
+.header-nav .header-nan-main {
+  height: 50px;
+  padding-top: 8px;
+}
+.header-nav .header-nan-main .allsort {
+  width: 210px;
+  height: 39px;
+  line-height: 34px;
+  font-size: 14px;
+  float: left;
+}
+.header-nav .header-nan-main .allsort .allsor {
+  display: block;
+  padding-left: 42px;
+  position: relative;
+}
+.header-nav .header-nan-main .allsort .allsor em {
+  display: inline-block;
+  width: 10px;
+  height: 12px;
+  background: url("../images/index/ices.png") no-repeat -400px -70px;
+  position: absolute;
+  right: 13px;
+  top: 16px;
+}
+.header-nav .header-nan-main .allsort:hover em {
+  background-position: -400px -85px;
+}
+.header-nav .header-nan-main .allsort:hover .nav-list {
+  display: block;
+}
+.header-nav .header-nan-main .allsort .nav-list {
+  width: 210px;
+  float: left;
+  background: #c23131;
+  height: 398px;
+  border-top: 2px solid #b01d1d;
+  position: relative;
+  top: 5px;
+  display: none;
+}
+.header-nav .header-nan-main .allsort .nav-list li {
+  height: 33px;
+  padding: 0 10px 0 0;
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  background: url("../images/index//ices.png") no-repeat 190px -160px;
+}
+.header-nav .header-nan-main .allsort .nav-list li:hover {
+  padding-left: 5px;
+  background-color: #872222;
+}
+.header-nav .header-nan-main .allsort .nav-list li:hover .sort-list {
+  display: block;
+}
+.header-nav .header-nan-main .allsort .nav-list li i {
+  display: inline-block;
+  width: 28px;
+  height: 32px;
+  line-height: 29px;
+  vertical-align: middle;
+  margin-right: 10px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  color: #fff;
+}
+.header-nav .header-nan-main .allsort .nav-list li a {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 12px;
+  color: #fff;
+  white-space: nowrap;
+  padding-right: 1px;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list {
+  position: absolute;
+  top: -2px;
+  left: 210px;
+  z-index: 9999;
+  height: 398px;
+  background: #fff;
+  width: 990px;
+  float: left;
+  display: none;
+  /*下拉列表文字*/
+  /*下拉列表AD*/
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp {
+  float: left;
+  padding-left: 18px;
+  margin-top: 10px;
+  margin-left: -1px;
+  width: 232px;
+  height: 380px;
+  color: #000;
+  margin-right: 15px;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp dl {
+  margin: 0 0 17px 0;
+  overflow: hidden;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp dl a {
+  color: #333;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp dl a:hover {
+  color: red;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp dl dt {
+  padding: 6px 0 2px 2px;
+  line-height: 18px;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp dl dt a {
+  font-weight: bold;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp dl .red {
+  color: #E60012;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-warp dl dd {
+  float: left;
+  margin: 10px 4px 0 -1px;
+  padding: 0 0 0 3px;
+  border-left: 1px solid #ddd;
+  border-right: 0;
+  line-height: 14px;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot {
+  width: 240px;
+  float: left;
+  margin-left: 5px;
+  border-left: 1px solid #dddddd;
+  overflow: hidden;
+  height: 395px;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot ul {
+  width: 240px;
+  height: 135px;
+  border-bottom: 1px solid #dddddd;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot ul a {
+  padding: 20px 15px 10px;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot ul a .fl {
+  float: left;
+  width: 104px;
+  overflow: hidden;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot ul a .fl strong {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  font-weight: bold;
+  color: #333333;
+  overflow: hidden;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot ul a .fl em {
+  height: 20px;
+  line-height: 20px;
+  color: #666666;
+  overflow: hidden;
+  display: block;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot ul a .fr {
+  float: right;
+  width: 105px;
+  height: 105px;
+}
+.header-nav .header-nan-main .allsort .nav-list .sort-list .sort-list-spot ul a .fr img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.header-nav .header-nan-main .seach {
+  margin-left: 140px;
+  width: 560px;
+  float: left;
+  height: 32px;
+  line-height: 32px;
+}
+.header-nav .header-nan-main .seach input {
+  float: left;
+  width: 460px;
+  height: 32px;
+  border: 2px solid #ff3c3c;
+  padding-left: 5px;
+}
+.header-nav .header-nan-main .seach button {
+  width: 100px;
+  height: 32px;
+  background: #ff3c3c;
+  text-align: center;
+  border: 0px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.left-box {
+  width: 42px;
+  height: 400px;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -650px;
+  background: #F9F9F9;
+  display: none;
+}
+.left-box a {
+  display: block;
+  width: 42px;
+  height: 38px;
+  overflow: hidden;
+  border-bottom: 2px solid #ebebeb;
+  line-height: 38px;
+}
+.left-box a i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../images/index/aside-ices.png") no-repeat;
+}
+.left-box a .ices1 {
+  background-position: 0px 0px;
+}
+.left-box a .ices2 {
+  background-position: 0px -40px;
+}
+.left-box a .ices3 {
+  background-position: 0px -75px;
+}
+.left-box a .ices4 {
+  background-position: 0px -111px;
+}
+.left-box a .ices5 {
+  background-position: 0px -150px;
+}
+.left-box a .ices6 {
+  background-position: 0px -190px;
+}
+.left-box a .ices7 {
+  background-position: 0px -230px;
+}
+.left-box a .ices8 {
+  background-position: 0px -265px;
+}
+.left-box a .ices9 {
+  background-position: 0px -303px;
+}
+.left-box a .ices0 {
+  background-position: 0px -342px;
+}
+.left-box a em {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 17px;
+  padding: 2px 5px;
+  color: #FF3c3c;
+  text-align: center;
+}
